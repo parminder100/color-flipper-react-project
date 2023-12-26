@@ -1,0 +1,65 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.color-flipper-grid{
+    max-width: 1130px;
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+    padding: 0 15px;
+}
+.bg-label{
+    background-color: #222;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    color: #fff;
+    max-width: 450px;
+    width: 100%;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bg-section{
+    padding-top: 100px;
+}
+.bg-main{
+    height: 90.5vh;
+}
+.bg-label .color-value{
+    color: hsl(205, 78%, 60%);
+    margin-left: 5px;
+}
+.bg-change-btn{
+    padding: 0.35rem 1.25rem;
+    font-size: 23px;
+    font-weight: 500;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    border: 2px solid #222;
+    transition: all 0.3s linear;
+    text-transform: capitalize;
+    color: #222;
+    background-color: #fff;
+    cursor: pointer;
+}
+.bg-change-btn:hover{
+    background-color: #222;
+    color: #fff;
+}
+
+
+
+@media (max-width: 575px) {
+    .bg-label{
+        font-size: 20px;
+    }
+}
